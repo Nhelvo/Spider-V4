@@ -529,15 +529,15 @@ const moment = require('moment-timezone');
 const time = moment().tz("Asia/Jakarta").format("HH:mm:ss");
 let ucapanWaktu
 if (time >= "19:00:00" && time < "23:59:00") {
-ucapanWaktu = "🌃 Selamat Malam"
+ucapanWaktu = "🌃 elelumi sufu"
 } else if (time >= "15:00:00" && time < "19:00:00") {
-ucapanWaktu = "🌄 Selamat Sore"
+ucapanWaktu = "🌄 elelu6 Sore"
 } else if (time >= "11:00:00" && time < "15:00:00") {
-ucapanWaktu = "🏞️ Selamat Siang"
+ucapanWaktu = "🏞️ pelelumi Siang"
 } else if (time >= "06:00:00" && time < "11:00:00") {
-ucapanWaktu = "🏙️ Selamat Pagi"
+ucapanWaktu = "🏙️ eskelumi Pagi"
 } else {
-ucapanWaktu = "🌆 Selamat Subuh"
+ucapanWaktu = "🌆 extetumi Subuh"
 }
 const wib = moment(Date.now()).tz("Asia/Jakarta").locale("id").format("HH:mm:ss z")
 const wita = moment(Date.now()).tz("Asia/Makassar").locale("id").format("HH:mm:ss z")
@@ -670,14 +670,14 @@ remoteJid: ""
 'message': {
   "eventMessage": {
     "isCanceled": false,
-    "name": "🌠 𝕾𝖕𝖎𝖉𝖊𝖗 𝖂𝖊𝖇🕸️ - Multi Device",
+    "name": "🌠 𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩 𝖂𝖊𝖇🕸️ - Multi Device",
     "description": "Pe",
     "location": {
       "degreesLatitude": 0,
       "degreesLongitude": 0,
       "name": "Apakajajanabs"
     },
-    "joinLink": "https://call.whatsapp.com/video/hMwVijMQtUb0qBJL3lf0rv",
+    "joinLink": "https://chat.whatsapp.com/G4OqIod7kOi4v3bKIIo41j",
     "startTime": "1713724680"
   }
 }
@@ -771,7 +771,7 @@ newsletterAdminInviteMessage: {
 newsletterJid: `120363224727390375@newsletter`,
 newsletterName: `🔥`,
 jpegThumbnail: fakejpg,
-caption: ` 🕷️𝕾𝖕𝖎𝖉𝖊𝖗 𝖂𝖊𝖇🕸️ ? \n ⿻ ${m.body || m.mtype} `,
+caption: ` 🕷️https://telegra.ph/file/d04d604bd4574b384ca1a.jpg 𝖂𝖊𝖇🕸️ ? \n ⿻ ${m.body || m.mtype} `,
 inviteExpiration: Date.now() + 1814400000
 }
 }
@@ -845,7 +845,7 @@ remoteJid: "status@broadcast"
 message: {
 "extendedTextMessage": {
 "text": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
-"title": `🕷️𝕾𝕻𝕴𝕯𝕰𝕽 𝖂𝕰𝕭🕸️ `,
+"title": `🕷️𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩 𝖂𝕰𝕭🕸️ `,
 'jpegThumbnail': fakejpg,
 }
 }
@@ -867,7 +867,7 @@ message: {
 "jpegThumbnail": fakejpg,
 },
 "title": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
-"description": `𝕾𝖕𝖎𝖉𝖊𝖗 🕸️ 𝖂𝖊𝖇 🕷️`,
+"description": `𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩🕸️ 𝖂𝖊𝖇 🕷️`,
 "currencyCode": "IDR",
 "priceAmount1000": "1000000000000000000",
 "retailerId": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
@@ -1814,7 +1814,7 @@ await ryozingod.relayMessage(target, etc.message, { participant: { jid: target }
 async function baklis(target, kuwoted) {
  var etc = generateWAMessageFromContent(target, proto.Message.fromObject({
   'listMessage': {
-    'title': "⟠🕷️🕸️𝕾𝖕𝖎𝖉𝖊𝖗 𝖂𝖊𝖇🕸️🕷️ 々"+" ".repeat(920000),
+    'title': "⟠🕷️🕸️𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩 𝖂𝖊𝖇🕸️🕷️ 々"+" ".repeat(920000),
         'footerText': `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`,
         'description': `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`,
         'buttonText': null,
@@ -1911,8 +1911,8 @@ let mydick = jinjing[randomIndex]
 let penisbengkok = `
 *${ucapanWaktu} @${m.sender.split("@")[0]}*
 
-┏❐  ⌜ 𝗗𝗘𝗩𝗜𝗟 𝗦𝗣𝗜𝗗𝗘𝗥 ⌟  ❐
-┃✢ Creator : 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+┏❐  ⌜ 𝕶𝖆𝖎𝖘𝖊 𝖔𝖋 𝕰𝖑𝖚𝖒𝖎 ⌟  ❐
+┃✢ Creator : 𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩
 ┃✢ Library : WS-Baileys
 ┃✢ Type : Case
 ┃✢ Status : Ready
@@ -1926,8 +1926,8 @@ let penisbengkok = `
 let njing = `
 *${ucapanWaktu} @${m.sender.split("@")[0]}*
 
-┏❐  ⌜ 𝘿𝙀𝙑𝙄𝙇 𝙎𝙋𝙄𝘿𝙀𝙍⌟  ❐
-┃✢ Creator : 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+┏❐  ⌜ 𝕶𝖆𝖎𝖘𝖊 𝖔𝖋 𝕰𝖑𝖚𝖒𝖎⌟  ❐
+┃✢ Creator : 𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩
 ┃✢ Library : WS-Baileys
 ┃✢ Type : Case
 ┃✢ Status : Ready
@@ -1942,7 +1942,7 @@ let njing = `
 ❐${prefix}owner
 ❐${prefix}botstatus
 
-𝐂𝐥𝐚𝐬𝐬𝐢𝐜 © Copyright`
+𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩 © Copyright`
 
 //Button Menu
 let freesex = {
@@ -1991,7 +1991,7 @@ let kontollurus = {
 image: mengkece,
 caption: njing,
 contextInfo:{externalAdReply:{
-title: '🕷️𝕾𝖕𝖎𝖉𝖊𝖗 𝖂𝖊𝖇🕸️',
+title: '🕷️ 𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩 𝖂𝖊𝖇🕸️',
 body: `👤 名前 : ${m.pushName}\n🕑${ucapanWaktu}`, 
 showAdAttribution: true,
 thumbnail: mydick,
@@ -2015,8 +2015,8 @@ let jinjing = [nulll, nulll2]
 let randomIndex = Math.floor(Math.random() * jinjing.length)
 let mydick = jinjing[randomIndex]
 let itsmenu = `
-┏❐  ⌜ 𝗗𝗘𝗩𝗜𝗟 𝗦𝗣𝗜𝗗𝗘𝗥⌟  ❐
-┃✢ Creator : 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+┏❐  ⌜ 𝕶𝖆𝖎𝖘𝖊 𝖔𝖋 𝕰𝖑𝖚𝖒𝖎⌟  ❐
+┃✢ Creator : 𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩
 ┃✢ Library : WS-Baileys
 ┃✢ Type : Case
 ┃✢ Status : Ready
@@ -2481,7 +2481,7 @@ let kontollurus = {
 image: mengkece,
 caption: itsmenu,
 contextInfo:{externalAdReply:{
-title: '⟠ 𝕾𝖕𝖎𝖉𝖊𝖗🕸️𝖂𝖊𝖇🕷️ ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々',
+title: '⟠ 🕸️𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩𝖂𝖊𝖇🕷️ ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々',
 body: `👤 名前 : ${m.pushName}\n🕑${ucapanWaktu}`, 
 showAdAttribution: true,
 thumbnail: mydick,
@@ -2506,8 +2506,8 @@ let mydick = jinjing[randomIndex]
 let itsmenu = `
 *${ucapanWaktu} @${m.sender.split("@")[0]}*
 
-┏❐  ⌜ ZxV - Bot ⌟  ❐
-┃✢ Creator : thezetsuboxygen
+┏❐  ⌜ xeon v7 ⌟  ❐
+┃✢ Creator : nhelvo
 ┃✢ Library : WS-Baileys
 ┃✢ Type : Case
 ┃✢ Status : Maintenance 
@@ -2563,7 +2563,7 @@ let itsmenu = `
 ┃
 ┗❐
 
-𝐂𝐥𝐚𝐬𝐬𝐢𝐜 © Copyright`
+𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩 © Copyright`
 
 let msg = {
 viewOnceMessage: {
@@ -2607,7 +2607,7 @@ let kontollurus = {
 image: mengkece,
 caption: itsmenu,
 contextInfo:{externalAdReply:{
-title: '⟠ 𝕾𝖕𝖎𝖉𝖊𝖗🕸️𝖂𝖊𝖇🕷️ ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々',
+title: '⟠ 𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩🕸️𝖂𝖊𝖇🕷️ ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々',
 body: `👤 名前 : ${m.pushName}\n🕑${ucapanWaktu}`, 
 showAdAttribution: true,
 thumbnail: mydick,
@@ -2639,8 +2639,8 @@ let totalCases = caseCount,
 listCases = caseNames.join('\n✢ ');
 
 joreply(`
-┏❐  ⌜𝗗𝗘𝗩𝗜𝗟 𝗦𝗣𝗜𝗗𝗘𝗥⌟  ❐
-┃✢ Creator : 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+┏❐  ⌜𝕶𝖆𝖎𝖘𝖊 𝖔𝖋 𝕰𝖑𝖚𝖒𝖎⌟  ❐
+┃✢ Creator : 𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩
 ┃✢ Library : WS-Baileys
 ┃✢ Type : Case
 ┃✢ Status : Maintenance 
@@ -2668,8 +2668,8 @@ break
 case 'sc': case 'script': {
 joreply(`🌤𝐈 𝐊𝐍𝐎𝐖 𝐘𝐎𝐔 𝐑𝐄𝐀𝐋𝐋𝐘 𝐍𝐄𝐄𝐃 𝐓𝐇𝐈𝐒 𝐒𝐂𝐑𝐈𝐏𝐓.
 
-❕𝐎𝐖𝐍𝐄𝐑 : https://api.whatsapp.com/send?phone=+254104301695
-❗𝐆𝐑𝐎𝐔𝐏 : https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk
+❕𝐎𝐖𝐍𝐄𝐑 : https://api.whatsapp.com/send?phone=+254113566713
+❗𝐆𝐑𝐎𝐔𝐏 : https://chat.whatsapp.com/G4OqIod7kOi4v3bKIIo41j
 
 `)
 }
