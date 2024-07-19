@@ -29,9 +29,9 @@ global.NamaOwner = '𝕹𝖍𝖊𝖑𝖛𝖔ᵈ𝕩' //gausah diganti
 global.sessionName = 'spidersession'
 global.connect = true // Ubah Ke False Jika Ingin Menggunakan Qr Code
 global.namabot = '𝐒𝐏𝐈𝐃𝐄𝐑-𝐕4' //ganti aj klo mau
-global.author = '𝕶𝖎𝖓𝖌 𝕾𝖆𝖒' //ganti aj klo mau
+global.author = '𝕮𝖆𝖑𝖑 𝕸𝖊 𝕹𝖍𝖊𝖑𝖑' //ganti aj klo mau
 global.packname = '𝚂𝚙𝚒𝚍𝚎𝚛 𝙱𝚘𝚝' //ganti aj klo mau
-global.yt = 'https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk' //gausah diganti
+global.yt = 'https://chat.whatsapp.com/G4OqIod7kOi4v3bKIIo41j' //gausah diganti
 
 //===========================//
 
